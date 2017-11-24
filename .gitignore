@@ -8,7 +8,6 @@ debug
 *.key
 dcrdata
 dcrdata*.conf
-vendor/
 *.orig
 *.db
 *.db-journal

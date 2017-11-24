@@ -68,6 +68,12 @@
   revision = "dee3fe6eb0e98dc774a94fc231f85baf7c29d360"
 
 [[projects]]
+  name = "github.com/dcrdata/dcrdata"
+  packages = ["blockdata","db/dbtypes","db/dbtypes/internal","db/dcrpg","db/dcrpg/internal","db/dcrsqlite","dcrdataapi","explorer","mempool","rpcutils","semver","stakedb","txhelpers"]
+  revision = "c1c3f8c36aae6f8e473c472fcc3d2a847ffa4714"
+  version = "v1.0.1"
+
+[[projects]]
   branch = "master"
   name = "github.com/decred/base58"
   packages = ["."]
@@ -170,6 +176,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "4c7eec3b639d27568fbb3e9f647cb6d0f9dc41c4118242735c46b00ba72b2108"
+  inputs-digest = "423ab630b8381e237b35ba040fde4e3152e2ce07ef54c7be3f905368e2c688fa"
   solver-name = "gps-cdcl"
   solver-version = 1
